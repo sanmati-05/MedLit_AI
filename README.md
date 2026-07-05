@@ -1,4 +1,4 @@
-# MedLit AI — Biomedical Literature Mining Pipeline
+# MedLit AI - Biomedical Literature Mining Pipeline
 
 > Automated extraction of genes, drugs, and clinical insights from PubMed literature, with cross-paper synthesis.
 
@@ -8,7 +8,7 @@
 
 Biomedical researchers face an overwhelming volume of scientific literature. Manually reading dozens of PubMed papers to identify relevant genes, drug targets, and recurring findings takes hours and does not scale, especially early in a project when the goal is simply to map out what is already known.
 
-MedLit AI takes a disease name as input, retrieves the most relevant PubMed papers, extracts genes and drugs mentioned in each one, and — beyond summarizing individual papers — aggregates these mentions across the full set to surface which genes and drugs appear most consistently in the literature. The output is a structured report a researcher can use as a starting point for a literature review, not just a set of individual summaries. It has been validated on three diseases — lung cancer, Alzheimer's disease, and COPD — with results below.
+MedLit AI takes a disease name as input, retrieves the most relevant PubMed papers, extracts genes and drugs mentioned in each one, and, beyond summarizing individual papers - aggregates these mentions across the full set to surface which genes and drugs appear most consistently in the literature. The output is a structured report a researcher can use as a starting point for a literature review, not just a set of individual summaries. It has been validated on three diseases - lung cancer, Alzheimer's disease, and COPD, with results below.
 
 ---
 
@@ -21,31 +21,31 @@ User Input (Disease Name)
 PubMed Fetch — NCBI Entrez API, top N papers by relevance
         │
         ▼
-LLM Entity Extraction (per paper) — genes, drugs, 1-line summary, PMID
+LLM Entity Extraction (per paper) genes, drugs, 1-line summary, PMID
         │
         ▼
-Cross-Paper Synthesis — aggregate gene/drug frequency across all papers
+Cross-Paper Synthesis - aggregate gene/drug frequency across all papers
         │
         ▼
-Relevance Scoring — entity density + publication recency
+Relevance Scoring - entity density + publication recency
         │
         ▼
-Report Generation — structured CSV + text summary, top-ranked papers and entities
+Report Generation - structured CSV + text summary, top-ranked papers and entities
 ```
 
 ---
 
 ## How It Works
 
-**1. Fetch** — PubMed is queried using the disease name combined with biomedical keywords (gene, protein, mutation, drug, therapy). Titles, abstracts, publication years, and PMIDs are parsed from the response.
+**1. Fetch** - PubMed is queried using the disease name combined with biomedical keywords (gene, protein, mutation, drug, therapy). Titles, abstracts, publication years, and PMIDs are parsed from the response.
 
-**2. Extract** — Each paper's title and abstract are passed to an LLM (`qwen/qwen3-32b` via Groq) with a structured prompt that returns gene symbols, drug names, and a short summary as JSON.
+**2. Extract** - Each paper's title and abstract are passed to an LLM (`qwen/qwen3-32b` via Groq) with a structured prompt that returns gene symbols, drug names, and a short summary as JSON.
 
-**3. Synthesize** — Gene and drug mentions are aggregated across all retrieved papers, so a researcher can see which entities are most consistently discussed rather than reading each paper in isolation.
+**3. Synthesize** - Gene and drug mentions are aggregated across all retrieved papers, so a researcher can see which entities are most consistently discussed rather than reading each paper in isolation.
 
-**4. Score** — Each paper receives a relevance score based on entity density and how recently it was published.
+**4. Score** - Each paper receives a relevance score based on entity density and how recently it was published.
 
-**5. Report** — Results are saved as both a structured CSV (for filtering and further analysis) and a readable text summary of the top-ranked papers and entities.
+**5. Report** - Results are saved as both a structured CSV (for filtering and further analysis) and a readable text summary of the top-ranked papers and entities.
 
 ---
 
@@ -83,8 +83,7 @@ APP, PSEN1, PSEN2, and APOE are the core genes implicated in both familial and s
 | A1AT | 1/10 | | Mepolizumab | 2/10 |
 | | | | ensifentrine, dupilumab, Benralizumab | 1/10 each |
 
-COPD returned a noticeably weaker gene signal than the other two diseases, but a stronger biologic/drug signal. A1AT (alpha-1 antitrypsin) is the best-established genetic risk factor for COPD, so its appearance is consistent with known biology — but the low gene count relative to lung cancer and Alzheimer's likely reflects that current COPD literature emphasizes biologic treatments (Mepolizumab, Dupilumab, Benralizumab) over novel genetic drivers, rather than a failure of extraction. This is a real difference in how each field's literature is currently weighted, not an artifact of the pipeline.
-
+COPD returned a noticeably weaker gene signal than the other two diseases, but a stronger biologic/drug signal. A1AT (alpha-1 antitrypsin) is the best-established genetic risk factor for COPD, so its appearance is consistent with known biology — but the low gene count relative to lung cancer and Alzheimer's likely reflects that current COPD literature emphasizes biologic treatments (Mepolizumab, Dupilumab, Benralizumab) over novel genetic drivers, rather than a failure of extraction. 
 ---
 
 Full per-paper reports (including PMIDs, individual gene/drug lists, and paper summaries) are available as CSV files in [`/results`](./results).
@@ -119,18 +118,6 @@ python medlit_ai.py --disease "lung cancer,alzheimer,COPD" --top_n 10
 ```
 
 ---
-
-## Repository Structure
-
-```
-medlit_ai/
-├── README.md
-├── medlit_ai.py          # main pipeline
-├── requirements.txt
-├── results/              # sample output reports (CSV + text) for lung cancer, Alzheimer's, and COPD
-└── LICENSE
-```
-
 ---
 
 ## Limitations & Future Work
