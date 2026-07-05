@@ -134,7 +134,3 @@ sanmati.bioinfo@gmail.com
 [LinkedIn](https://www.linkedin.com/in/sanmati-ganesh-701008273)
 
 ---
-
-## License
-
-Released under the [MIT License](LICENSE) — free to use, modify, and distribute with attribution.
