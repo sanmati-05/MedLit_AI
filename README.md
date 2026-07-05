@@ -83,9 +83,9 @@ APP, PSEN1, PSEN2, and APOE are the core genes implicated in both familial and s
 | A1AT | 1/10 | | Mepolizumab | 2/10 |
 | | | | ensifentrine, dupilumab, Benralizumab | 1/10 each |
 
-COPD returned a noticeably weaker gene signal than the other two diseases, but a stronger biologic/drug signal. A1AT (alpha-1 antitrypsin) is the best-established genetic risk factor for COPD, so its appearance is consistent with known biology — but the low gene count relative to lung cancer and Alzheimer's likely reflects that current COPD literature emphasizes biologic treatments (Mepolizumab, Dupilumab, Benralizumab) over novel genetic drivers, rather than a failure of extraction. 
----
+COPD returned a noticeably weaker gene signal than the other two diseases, but a stronger biologic/drug signal. A1AT (alpha-1 antitrypsin) is the best-established genetic risk factor for COPD, so its appearance is consistent with known biology — but the low gene count relative to lung cancer and Alzheimer's likely reflects that current COPD literature emphasizes biologic treatments (Mepolizumab, Dupilumab, Benralizumab) over novel genetic drivers, rather than a failure of extraction.
 
+---
 Full per-paper reports (including PMIDs, individual gene/drug lists, and paper summaries) are available as CSV files in [`/results`](./results).
 
 ---
@@ -117,7 +117,6 @@ Get a free Groq key at [console.groq.com](https://console.groq.com). NCBI requir
 python medlit_ai.py --disease "lung cancer,alzheimer,COPD" --top_n 10
 ```
 
----
 ---
 
 ## Limitations & Future Work
