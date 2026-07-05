@@ -1,0 +1,58 @@
+
+--- REPORT: LUNG CANCER ---
+
+Most frequently mentioned genes across all papers:
+  EGFR — 5/10 papers
+  MET — 4/10 papers
+  ROS1 — 2/10 papers
+  BRAF — 2/10 papers
+  KRAS — 2/10 papers
+  ALK — 2/10 papers
+  RET — 2/10 papers
+  ERBB2 — 2/10 papers
+  HER2 — 2/10 papers
+  NTRK — 1/10 papers
+
+Most frequently mentioned drugs across all papers:
+  trastuzumab deruxtecan — 2/10 papers
+  lorlatinib — 1/10 papers
+  crizotinib — 1/10 papers
+  entrectinib — 1/10 papers
+  taletrectinib — 1/10 papers
+  repotrectinib — 1/10 papers
+  afatinib — 1/10 papers
+  gefitinib — 1/10 papers
+  erlotinib — 1/10 papers
+  Zipalertinib — 1/10 papers
+
+Top 5 papers by relevance score:
+
+1. Targeted Therapies for Lung Cancer Patients With Oncogenic Driver Molecular Alterations.
+   PMID: 34985916  |  Year: 2022  |  Score: 17
+   Genes: ['EGFR', 'ALK', 'ROS1', 'BRAF', 'KRAS', 'MET', 'NTRK', 'RET']
+   Drugs: []
+   Summary: Lung cancer classification now incorporates molecular subsets with targeted therapies for specific driver mutations like EGFR, ALK, and others. The treatment landscape is expanding with approvals for BRAF V600E, EGFR exon 20, KRAS G12C, MET exon 14, and NTRK/RET alterations.
+
+2. Targeting ROS1 rearrangements in non-small cell lung cancer: Current insights and future directions.
+   PMID: 40171848  |  Year: 2025  |  Score: 15
+   Genes: ['ROS1']
+   Drugs: ['crizotinib', 'entrectinib', 'lorlatinib', 'taletrectinib', 'repotrectinib']
+   Summary: ROS1 rearrangements in non-small cell lung cancer (NSCLC) are targeted by tyrosine kinase inhibitors (TKIs). First-generation TKIs like crizotinib and entrectinib show high response rates but face resistance and CNS penetration limitations. Next-generation agents (lorlatinib, taletrectinib, repotrectinib) overcome these challenges with improved CNS activity and resistance mutation efficacy.
+
+3. Targeted Therapies for EGFR Exon 20 Insertion Mutation in Non-Small-Cell Lung Cancer.
+   PMID: 38892105  |  Year: 2024  |  Score: 15
+   Genes: ['EGFR', 'MET']
+   Drugs: ['Amivantamab', 'Mobocertinib', 'Poziotinib', 'Zipalertinib', 'Sunvozertinib']
+   Summary: This review discusses targeted therapies for EGFR exon 20 insertion mutations in NSCLC, highlighting agents like Amivantamab and Mobocertinib, which show varying efficacy but face challenges with resistance.
+
+4. Immune checkpoint inhibitors for patients with advanced lung cancer and oncogenic driver alterations: results from the IMMUNOTARGET registry.
+   PMID: 31125062  |  Year: 2019  |  Score: 14
+   Genes: ['KRAS', 'EGFR', 'BRAF', 'MET', 'HER2', 'ALK', 'RET']
+   Drugs: []
+   Summary: This study evaluates the efficacy of immune checkpoint inhibitors (ICI) in advanced non-small-cell lung cancer patients with oncogenic driver alterations, analyzing progression-free survival, overall survival, and response rates across 551 patients with mutations in KRAS, EGFR, BRAF, MET, HER2, ALK, and RET.
+
+5. Mechanisms of acquired resistance to first- and second-generation EGFR tyrosine kinase inhibitors.
+   PMID: 29462254  |  Year: 2018  |  Score: 12
+   Genes: ['EGFR', 'MET', 'ERBB2']
+   Drugs: ['erlotinib', 'gefitinib', 'afatinib']
+   Summary: The study discusses mechanisms of acquired resistance to EGFR tyrosine kinase inhibitors in non-small-cell lung cancer, identifying the T790M mutation as a primary cause and highlighting MET/ERBB2 amplification as secondary resistance mechanisms.

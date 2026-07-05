@@ -1,0 +1,44 @@
+
+--- REPORT: COPD ---
+
+Most frequently mentioned genes across all papers:
+  A1AT — 1/10 papers
+
+Most frequently mentioned drugs across all papers:
+  Mepolizumab — 2/10 papers
+  ensifentrine — 1/10 papers
+  dupilumab — 1/10 papers
+  Benralizumab — 1/10 papers
+  Dupilumab — 1/10 papers
+
+Top 5 papers by relevance score:
+
+1. Multi-Criteria Decision Analysis of Biologics in Chronic Obstructive Pulmonary Disease.
+   PMID: 40955382  |  Year: 2025  |  Score: 9
+   Genes: []
+   Drugs: ['Dupilumab', 'Mepolizumab', 'Benralizumab']
+   Summary: A multicriteria decision analysis evaluated 12 biologics in COPD, identifying Dupilumab as most effective in eosinophilic COPD with robust exacerbation reduction and FEV1 improvement.
+
+2. Chronic Obstructive Pulmonary Disease (COPD): Developments in Pharmacological Treatments.
+   PMID: 40392521  |  Year: 2025  |  Score: 7
+   Genes: []
+   Drugs: ['dupilumab', 'ensifentrine']
+   Summary: Recent advancements in COPD pharmacological treatments include using blood eosinophil counts (BEC) as a biomarker for precision medicine, along with novel therapies like inhaled phosphodiesterase inhibitor ensifentrine and monoclonal antibody dupilumab targeting type 2 inflammation.
+
+3. Toward precision medicine in COPD: phenotypes, endotypes, biomarkers, and treatable traits.
+   PMID: 41024111  |  Year: 2025  |  Score: 5
+   Genes: ['A1AT']
+   Drugs: []
+   Summary: This review discusses precision medicine in COPD, emphasizing phenotypes, endotypes (like neutrophilic inflammation and α1 antitrypsin deficiency), and biomarkers (e.g., blood eosinophils, CRP) to improve therapeutic targeting. It highlights the shift from phenotypic to endotype-based classifications for better treatment outcomes.
+
+4. Emerging Therapeutics in COPD: Mapping Innovation to Treatable Traits.
+   PMID: 40900345  |  Year: 2025  |  Score: 3
+   Genes: []
+   Drugs: []
+   Summary: The paper discusses the application of Treatable Traits (TTs) in COPD management, mapping emerging anti-inflammatory agents and bronchodilators to specific pathobiological traits like inflammation subtypes and corticosteroid resistance, emphasizing biomarker-driven precision approaches.
+
+5. Chronic obstructive pulmonary disease's eosinophilic phenotype: Clinical characteristics, biomarkers and biotherapy.
+   PMID: 39443246  |  Year: 2025  |  Score: 3
+   Genes: []
+   Drugs: []
+   Summary: The eosinophilic phenotype in COPD is a heterogeneous inflammatory disorder where identifying this subtype is critical for targeted therapies like corticosteroids and biologics, though consensus on biomarker thresholds remains unresolved.

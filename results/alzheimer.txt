@@ -1,0 +1,49 @@
+
+--- REPORT: ALZHEIMER ---
+
+Most frequently mentioned genes across all papers:
+  APP — 5/10 papers
+  MAPT — 4/10 papers
+  PSEN1 — 2/10 papers
+  APOE — 2/10 papers
+  PSEN2 — 1/10 papers
+  SNCA — 1/10 papers
+
+Most frequently mentioned drugs across all papers:
+  Donepezil — 1/10 papers
+  Memantine — 1/10 papers
+  donanemab — 1/10 papers
+  lecanemab — 1/10 papers
+  aducanumab — 1/10 papers
+
+Top 5 papers by relevance score:
+
+1. AAVrh.10 delivery of novel APOE2-Christchurch variant suppresses amyloid and Tau pathology in Alzheimer's disease mice.
+   PMID: 39511891  |  Year: 2024  |  Score: 9
+   Genes: ['APOE', 'APP', 'PSEN1', 'MAPT']
+   Drugs: []
+   Summary: AAVrh.10-mediated delivery of the APOE2-Christchurch variant (E2Ch) showed superior suppression of amyloid and tau pathology in Alzheimer's disease mouse models compared to unmodified APOE2, reducing Aβ accumulation, tau tangles, and glial activation.
+
+2. The evolving landscape of Alzheimer's disease therapy: From Aβ to tau.
+   PMID: 41448139  |  Year: 2025  |  Score: 7
+   Genes: ['APP', 'MAPT']
+   Drugs: []
+   Summary: The paper discusses advancements in Alzheimer's disease therapy, highlighting progress in tau-targeting approaches and anti-Aβ treatments, while outlining challenges and future directions including combination therapies.
+
+3. Anti-amyloid-β Antibodies and Anti-tau Therapies for Alzheimer's Disease: Recent Advances and Perspectives.
+   PMID: 38945936  |  Year: 2024  |  Score: 7
+   Genes: []
+   Drugs: ['aducanumab', 'lecanemab', 'donanemab']
+   Summary: Recent advances in anti-amyloid-β therapies include FDA approvals of aducanumab and lecanemab, with donanemab meeting phase 3 endpoints. Tau-targeting therapies show limited clinical benefits but demonstrate functional improvements in trials.
+
+4. Clinical and biomarker changes in dominantly inherited Alzheimer's disease.
+   PMID: 22784036  |  Year: 2012  |  Score: 6
+   Genes: ['APP', 'PSEN1', 'PSEN2']
+   Drugs: []
+   Summary: This study investigates the sequence and magnitude of pathophysiological changes in dominantly inherited Alzheimer's disease through longitudinal analysis of clinical, cognitive, imaging, and biomarker data from 128 participants, correlating findings with estimated years from expected symptom onset.
+
+5. NEURODEGENERATION. Alzheimer's and Parkinson's diseases: The prion concept in relation to assembled Aβ, tau, and α-synuclein.
+   PMID: 26250687  |  Year: 2015  |  Score: 6
+   Genes: ['APP', 'MAPT', 'SNCA']
+   Drugs: []
+   Summary: Alzheimer's and Parkinson's diseases are characterized by the pathological assembly of Aβ, tau, and α-synuclein, with mutations in their respective genes contributing to disease progression.
